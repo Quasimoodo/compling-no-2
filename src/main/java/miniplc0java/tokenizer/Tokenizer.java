@@ -75,7 +75,7 @@ public class Tokenizer {
         //throw new Error("Not implemented");
 
         Pos beginpos= it.currentPos();
-        String now='';
+        String now="";
         while(Character.isAlphabetic(it.peekChar()))//一直读字母
         {
             now+=it.nextChar();
