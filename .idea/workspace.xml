@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebce017a-fe8e-470f-8303-a1b75f5e1f4d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jYRdddvAyYjDrMGWZJJhO8ancF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.compling-no-2 [fatjar]">
+    <configuration name="D:/compling/compling-no-2/src [fatjar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fatjar" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="compling-no-2 [fatjar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fatjar" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.compling-no-2 [fatjar]" />
+        <item itemvalue="Gradle.D:/compling/compling-no-2/src [fatjar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebce017a-fe8e-470f-8303-a1b75f5e1f4d" name="Default Changelist" comment="" />
+      <created>1603979128601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603979128601</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1852" height="426" key="GridCell.Tab.0.bottom" timestamp="1604064193737">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1852" height="426" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1604064193737" />
+    <state width="1852" height="426" key="GridCell.Tab.0.center" timestamp="1604064193737">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1852" height="426" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1604064193737" />
+    <state width="1852" height="426" key="GridCell.Tab.0.left" timestamp="1604064193736">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1852" height="426" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1604064193736" />
+    <state width="1852" height="426" key="GridCell.Tab.0.right" timestamp="1604064193737">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1852" height="426" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1604064193737" />
+    <state x="208" y="0" key="SettingsEditor" timestamp="1603982495041">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1603982495041" />
+    <state x="381" y="0" width="859" height="1035" key="find.popup" timestamp="1603980965373">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="381" y="0" width="859" height="1035" key="find.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1603980965373" />
+    <state x="444" y="221" key="run.anything.popup" timestamp="1604060373706">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="444" y="221" key="run.anything.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1604060373706" />
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1604060571729">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1604060571729" />
+  </component>
+</project>

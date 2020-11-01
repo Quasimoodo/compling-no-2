@@ -10,7 +10,7 @@ public class Token {
     private Object value;
     private Pos startPos;
     private Pos endPos;
-
+    //区间是左开右闭
     public Token(TokenType tokenType, Object value, Pos startPos, Pos endPos) {
         this.tokenType = tokenType;
         this.value = value;
