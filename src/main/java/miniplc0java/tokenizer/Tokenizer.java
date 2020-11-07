@@ -101,6 +101,10 @@ public class Tokenizer {
         {
             return new Token(TokenType.Const,now,beginpos,it.currentPos());
         }
+        else if (now.equalsIgnoreCase("Print"))
+        {
+            return new Token(TokenType.Print,now,beginpos, it.currentPos());
+        }
         else//identifier
         {
             return new Token(TokenType.Ident,now,beginpos,it.currentPos());

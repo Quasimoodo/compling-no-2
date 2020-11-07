@@ -364,7 +364,7 @@ public final class Analyser {
         var symbol = symbolTable.get(name);
         if (symbol == null) {
             // 没有这个标识符
-            System.out.println(name);
+            //System.out.println(name);
             throw new AnalyzeError(ErrorCode.NotDeclared, /* 当前位置 */ nameToken.getStartPos());
         } else if (symbol.isConstant) {
             // 标识符是常量
