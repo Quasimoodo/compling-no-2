@@ -261,13 +261,13 @@ public final class Analyser {
             // 下个 token 是等于号吗？如果是的话分析初始化
 
             // 分析初始化的表达式
-
+            addSymbol(name, initialized, false, /* 当前位置 */ nameToken.getStartPos());
             // 分号
             expect(TokenType.Semicolon);
 
             // 加入符号表，请填写名字和当前位置（报错用）
  ///           String name = /* 名字 */ null;
-            addSymbol(name, initialized, false, /* 当前位置 */ nameToken.getStartPos());
+
 
             // 如果没有初始化的话在栈里推入一个初始值
             if (!initialized) {
@@ -364,10 +364,10 @@ public final class Analyser {
         var symbol = symbolTable.get(name);
         if (symbol == null) {
             // 没有这个标识符
-            throw new AnalyzeError(ErrorCode.NotDeclared, /* 当前位置 */ null);
+            throw new AnalyzeError(ErrorCode.NotDeclared, /* 当前位置 */ nameToken.getStartPos());
         } else if (symbol.isConstant) {
             // 标识符是常量
-            throw new AnalyzeError(ErrorCode.AssignToConstant, /* 当前位置 */ null);
+            throw new AnalyzeError(ErrorCode.AssignToConstant, /* 当前位置 */ nameToken.getStartPos());
         }
         expect(TokenType.Equal);
         analyseExpression();
