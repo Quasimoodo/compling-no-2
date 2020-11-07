@@ -84,20 +84,20 @@ public class Tokenizer {
         {
             now+=it.nextChar();
         }
-        if(now.equals("begin"))
+        if(now.equalsIgnoreCase("Begin"))
         {
             return new Token(TokenType.Begin,now,beginpos,it.currentPos());
 
         }
-        else if(now.equals("end"))
+        else if(now.equalsIgnoreCase("End"))
         {
             return new Token(TokenType.End,now,beginpos,it.currentPos());
         }
-        else if(now.equals("var"))
+        else if(now.equalsIgnoreCase("Var"))
         {
             return new Token(TokenType.Var,now,beginpos,it.currentPos());
         }
-        else if(now.equals("const"))
+        else if(now.equalsIgnoreCase("Const"))
         {
             return new Token(TokenType.Const,now,beginpos,it.currentPos());
         }
