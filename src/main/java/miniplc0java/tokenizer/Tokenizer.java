@@ -84,24 +84,24 @@ public class Tokenizer {
         {
             now+=it.nextChar();
         }
-        if(now.equals("Begin"))
+        if(now.equals("begin"))
         {
             return new Token(TokenType.Begin,now,beginpos,it.currentPos());
 
         }
-        else if(now.equals("End"))
+        else if(now.equals("end"))
         {
             return new Token(TokenType.End,now,beginpos,it.currentPos());
         }
-        else if(now.equals("Var"))
+        else if(now.equals("var"))
         {
             return new Token(TokenType.Var,now,beginpos,it.currentPos());
         }
-        else if(now.equals("Const"))
+        else if(now.equals("const"))
         {
             return new Token(TokenType.Const,now,beginpos,it.currentPos());
         }
-        else if (now.equals("Print"))
+        else if (now.equals("print"))
         {
             return new Token(TokenType.Print,now,beginpos, it.currentPos());
         }
