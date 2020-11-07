@@ -374,6 +374,7 @@ public final class Analyser {
         analyseExpression();
         // 设置符号已初始化
         initializeSymbol(name, nameToken.getStartPos());
+        expect(TokenType.Semicolon);
 
         // 把结果保存
         var offset = getOffset(name, nameToken.getStartPos());
