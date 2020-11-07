@@ -293,11 +293,14 @@ public final class Analyser {
                 //输出语句
                 analyseOutputStatement();
             }
+            /*
             else if(peeked.getTokenType()==TokenType.Semicolon)
             {
                 //空语句 应该不用管
                 next();
             }
+            
+             */
             else {
                 // 都不是，摸了
                 break;
