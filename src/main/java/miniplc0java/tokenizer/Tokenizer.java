@@ -53,8 +53,9 @@ public class Tokenizer {
         int sum=0;
         while(Character.isDigit(it.peekChar()))
         {
-            sum+= it.nextChar()-'0';
             sum*=10;
+            sum+= it.nextChar()-'0';
+
         }
         return new Token(TokenType.Uint,sum,beginpos,it.currentPos());
 
