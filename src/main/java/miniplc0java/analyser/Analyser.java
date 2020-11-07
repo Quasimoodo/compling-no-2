@@ -270,9 +270,9 @@ public final class Analyser {
 
 
             // 如果没有初始化的话在栈里推入一个初始值
- //           if (!initialized) {
-   //             instructions.add(new Instruction(Operation.LIT, 0));
-    //        }
+            if (!initialized) {
+               instructions.add(new Instruction(Operation.LIT, 0));
+            }
         }
     }
 ///这个要填
@@ -299,7 +299,7 @@ public final class Analyser {
                 //空语句 应该不用管
                 next();
             }
-            
+
              */
             else {
                 // 都不是，摸了
